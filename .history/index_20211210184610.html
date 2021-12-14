@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/font/fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="./main.js"></script>
+    <div class="slider">
+      <h2>Podca</h2>
+      <img
+        src="./assets/css/img/xhero_bg_1.jpg.pagespeed.ic.EJCcE-mhd6.webp"
+        alt=""
+      />
+      <h3>Episode 09: How To Create Web Page Using Bootstrap 4</h3>
+      <span>By Mike Smith | 16 September 2017 | 1:30:20</span>
+      <div class="subslider">READ THE TRANSCRIPT</div>
+      <div class="menu" onclick="openmenu()">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="sub-menu">
+        <i class="fas fa-times" onclick="closemenu()"></i>
+        <div class="home-menu">
+          <p>Home</p>
+          <i onclick="subhome()" class="fas fa-caret-down"></i>
+
+          <div class="sub-home">
+            <li>Menu One</li>
+            <li>Menu Two</li>
+            <li>Menu Three</li>
+            <li>Sub Menu</li>
+          </div>
+          <div class="drop-down">
+            <p>DropDown</p>
+            <i onclick="subdropdown() " class="fas fa-caret-down"></i>
+            <div class="sub-dropdown">
+              <li>Menu One</li>
+              <li>Menu two</li>
+              <li>Menu three</li>
+            </div>
+          </div>
+
+          <p>About</p>
+          <p>Contact</p>
+        </div>
+      </div>
+    </div>
+    <div class="audio">
+      <audio class="audio-one" controls>
+        <source src="" type="audio/ogg" />
+        <source src="" type="audio/mpeg" />
+      </audio>
+    </div>
+    <div class="RecentPodcasts">
+      <h2>Recent Podcasts</h2>
+      <div class="container">
+        <div class="img-pod">
+          <img src="./assets/css/img/pod1.webp" alt="" />
+        </div>
+        <div class="content-pod">
+          <h3>Episode 08: How To Create Web Page Using Bootstrap 4</h3>
+          <span>By Mike Smith / 16 September 2017 / 1:30:20</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
+            repellat mollitia consequatur, optio nesciunt placeat. Iste
+            voluptates excepturi tenetur, nesciunt.
+          </p>
+          <audio class="audiopod" controls>
+            <source src="" type="audio/mpeg" />
+          </audio>
+        </div>
+      </div>
+      <div class="container">
+        <div class="img-pod">
+          <img src="./assets/css/img/pod2.webp" alt="" />
+        </div>
+        <div class="content-pod">
+          <h3>Episode 07: How To Create Web Page Using Bootstrap 4</h3>
+          <span>By Mike Smith / 16 September 2017 / 1:30:20</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
+            repellat mollitia consequatur, optio nesciunt placeat. Iste
+            voluptates excepturi tenetur, nesciunt.
+          </p>
+          <audio class="audiopod" controls>
+            <source src="" type="audio/mpeg" />
+          </audio>
+        </div>
+      </div>
+      <div class="container">
+        <div class="img-pod">
+          <img src="./assets/css/img/pod3.webp" alt="" />
+        </div>
+        <div class="content-pod">
+          <h3>Episode 06: How To Create Web Page Using Bootstrap 4</h3>
+          <span>By Mike Smith / 16 September 2017 / 1:30:20</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
+            repellat mollitia consequatur, optio nesciunt placeat. Iste
+            voluptates excepturi tenetur, nesciunt.
+          </p>
+          <audio class="audiopod" controls>
+            <source src="" type="audio/mpeg" />
+          </audio>
+        </div>
+      </div>
+      <div class="container">
+        <div class="img-pod">
+          <img src="./assets/css/img/pod4.webp" alt="" />
+        </div>
+        <div class="content-pod">
+          <h3>Episode 05: How To Create Web Page Using Bootstrap 4</h3>
+          <span>By Mike Smith / 16 September 2017 / 1:30:20</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
+            repellat mollitia consequatur, optio nesciunt placeat. Iste
+            voluptates excepturi tenetur, nesciunt.
+          </p>
+          <audio class="audiopod" controls>
+            <source src="" type="audio/mpeg" />
+          </audio>
+        </div>
+      </div>
+      <div class="container">
+        <div class="img-pod">
+          <img src="./assets/css/img/pod5.webp" alt="" />
+        </div>
+        <div class="content-pod">
+          <h3>Episode 04: How To Create Web Page Using Bootstrap 4</h3>
+          <span>By Mike Smith / 16 September 2017 / 1:30:20</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
+            repellat mollitia consequatur, optio nesciunt placeat. Iste
+            voluptates excepturi tenetur, nesciunt.
+          </p>
+          <audio class="audiopod" controls>
+            <source src="" type="audio/mpeg" />
+          </audio>
+        </div>
+      </div>
+    </div>
+    <div class="list-pod">
+      <li><i class="fas fa-chevron-left"></i></li>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+      <li><i class="fas fa-chevron-right"></i></li>
+    </div>
+    <div class="BehindTheMic">
+      <h2>Behind The Mic</h2>
+      <div class="container-behind">
+        <div class="picture-behind">
+          <img src="./assets/css/img/behind1.webp" alt="" />
+        </div>
+        <div class="content-behind">
+          <h2>Megan Smith</h2>
+          <span>Creative Director</span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit ullam
+            reprehenderit nemo.
+          </p>
+          <div class="icon-behind">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-invision"></i>
+          </div>
+        </div>
+
+        <div class="picture-behind">
+          <img src="./assets/css/img/behind2.webp" alt="" />
+        </div>
+        <div class="content-behind2">
+          <h2>Brooke Cagle</h2>
+          <span>Creative Director</span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit ullam
+            reprehenderit nemo.
+          </p>
+          <div class="icon-behind">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-invision"></i>
+          </div>
+        </div>
+        <div class="picture-behind">
+          <img src="./assets/css/img/behind3.webp" alt="" />
+        </div>
+        <div class="content-behind3">
+          <h2>Philip Martin</h2>
+          <span>Creative Director</span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit ullam
+            reprehenderit nemo.
+          </p>
+          <div class="icon-behind">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-invision"></i>
+          </div>
+        </div>
+        <div class="picture-behind">
+          <img src="./assets/css/img/behind4.webp" alt="" />
+        </div>
+        <div class="content-behind4">
+          <h2>Steven Ericson</h2>
+          <span>Creative Director</span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit ullam
+            reprehenderit nemo.
+          </p>
+          <div class="icon-behind">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-invision"></i>
+          </div>
+        </div>
+        <div class="picture-behind">
+          <img src="./assets/css/img/behind5.webp" alt="" />
+        </div>
+        <div class="content-behind5">
+          <h2>Nathan Dumlao</h2>
+          <span>Creative Director</span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit ullam
+            reprehenderit nemo.
+          </p>
+          <div class="icon-behind">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-invision"></i>
+          </div>
+        </div>
+        <div class="picture-behind">
+          <img src="./assets/css/img/behind6.webp" alt="" />
+        </div>
+        <div class="content-behind6">
+          <h2>Brooke Cagle</h2>
+          <span>Creative Director</span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit ullam
+            reprehenderit nemo.
+          </p>
+          <div class="icon-behind">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-invision"></i>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="container-behind">
+        <div class="picture-behind">
+          <img src="./assets/css/img/behind1.webp" alt="" />
+        </div>
+      </div>
+      <div class="container-behind">
+        <div class="picture-behind">
+          <img src="./assets/css/img/behind1.webp" alt="" />
+        </div>
+      </div>
+      <div class="container-behind">
+        <div class="picture-behind">
+          <img src="./assets/css/img/behind1.webp" alt="" />
+        </div>
+      </div>
+      <div class="container-behind">
+        <div class="picture-behind">
+          <img src="./assets/css/img/behind1.webp" alt="" />
+        </div>
+      </div>
+      <div class="container-behind">
+        <div class="picture-behind">
+          <img src="./assets/css/img/behind1.webp" alt="" />
+        </div>
+      </div> -->
+    </div>
+
+    <div class="FeaturedGuests">
+      <h2>Featured Guests</h2>
+      <div class="slide-feture">
+        <div class="container-feature">
+          <div class="box-feture">
+            <div class="img-feture">
+              <img src="./assets/css/img/behind1.webp" alt="" />
+            </div>
+            <div class="content-feature">
+              <span>Megan Smith</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+                iusto. Aliquam illo, cum sed ea? Ducimus quos, ea?
+              </p>
+            </div>
+          </div>
+          <div class="box-feture">
+            <div class="img-feture">
+              <img src="./assets/css/img/behind2.webp" alt="" />
+            </div>
+            <div class="content-feature">
+              <span>Brooke Cagle</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+                iusto. Aliquam illo, cum sed ea? Ducimus quos, ea?
+              </p>
+            </div>
+          </div>
+          <div class="box-feture">
+            <div class="img-feture">
+              <img src="./assets/css/img/behind3.webp" alt="" />
+            </div>
+            <div class="content-feature">
+              <span>Philip Martin</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+                iusto. Aliquam illo, cum sed ea? Ducimus quos, ea?
+              </p>
+            </div>
+          </div>
+          <div class="box-feture">
+            <div class="img-feture">
+              <img src="./assets/css/img/behind4.webp" alt="" />
+            </div>
+            <div class="content-feature">
+              <span>Steven Ericson</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+                iusto. Aliquam illo, cum sed ea? Ducimus quos, ea?
+              </p>
+            </div>
+          </div>
+          <div class="box-feture">
+            <div class="img-feture">
+              <img src="./assets/css/img/behind5.webp" alt="" />
+            </div>
+            <div class="content-feature">
+              <span>Nathan Dumlao</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+                iusto. Aliquam illo, cum sed ea? Ducimus quos, ea?
+              </p>
+            </div>
+          </div>
+          <div class="box-feture">
+            <div class="img-feture">
+              <img src="./assets/css/img/behind6.webp" alt="" />
+            </div>
+            <div class="content-feature">
+              <span>Brook Smith</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+                iusto. Aliquam illo, cum sed ea? Ducimus quos, ea?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="icon-feture">
+        <i class="fas fa-arrow-left"></i>
+        <i class="fas fa-arrow-right"></i>
+      </div>
+    </div>
+    <script>
+      var slide = document.querySelector(".container-feature");
+      var leftarow = document.querySelector(".fa-arrow-left");
+      var rightarow = document.querySelector(".fa-arrow-right");
+      let x = 0;
+      leftarow.onclick = function () {
+        if (x > "-1000") {
+          x = x - 380;
+          slide.style.left = x + "px";
+        }
+      };
+      rightarow.onclick = function () {
+        if (x < "0") {
+          x = x + 380;
+          slide.style.left = x + "px";
+        }
+      };
+    </script>
+    <div class="footer">
+      <div class="img-footer">
+        <img
+          src="./assets/css/img/xhero_bg_1.jpg.pagespeed.ic.EJCcE-mhd6.webp"
+          alt=""
+        />
+      </div>
+      <h2>Subscribe</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit nihil saepe
+        libero sit odio obcaecati veniam.
+      </p>
+      <div class="input-footer">
+        <input placeholder="Enter Email" type="email" />
+      </div>
+      <div class="send-input">Send</div>
+    </div>
+    <div class="footer-right">
+      <h2>About Podca</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe pariatur
+        reprehenderit vero atque, consequatur id ratione, et non dignissimos
+        culpa? Ut veritatis, quos illum totam quis blanditiis, minima minus
+        odio!
+      </p>
+      <div class="RecentPodcast-footer">
+        <h2>Recent Podcast</h2>
+        <div class="container-podcast">
+          <div class="img-podcast">
+            <img src="./assets/css/img/podcards.webp" alt="" />
+          </div>
+          <div class="content-podcards">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit minima
+              minus odio.
+            </p>
+          </div>
+        </div>
+        <div class="container-podcast">
+          <div class="img-podcast">
+            <img src="./assets/css/img/podcards.webp" alt="" />
+          </div>
+          <div class="content-podcards">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit minima
+              minus odio.
+            </p>
+          </div>
+        </div>
+        <div class="container-podcast">
+          <div class="img-podcast">
+            <img src="./assets/css/img/podcards.webp" alt="" />
+          </div>
+          <div class="content-podcards">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit minima
+              minus odio.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-align"></div>
+  </body>
+</html>
